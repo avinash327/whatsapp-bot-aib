@@ -29,7 +29,7 @@ Easy deploy your bot, steps in the bottom.
 1. After downloading and installing Heroku CLI in your system login to heroku cli using `heroku login` in command prompt or powershell.
 2. Add ffmpeg (_for sticker support_) in your heroku app using `heroku buildpacks:add https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git -a <your-app-name>`
 3. After adding ffmpeg now add 'Heroku Buildpack for Node.js' using `heroku buildpacks:add https://github.com/heroku/heroku-buildpack-nodejs.git -a <your-app-name>`
-4. Now download or clone the whatsapp-bot repo by `git clone https://github.com/Shubhamrawat5/whatsapp-bot-md.git`
+4. Now download or clone the whatsapp-bot repo by `git clone https://github.com/avinash327/whatsapp-bot-aib.git`
 5. Now enter in whatsapp-bot directory using `cd whatsapp-bot-md` in command prompt or terminal.
 6. Create the remote region using `heroku git:remote -a <your-app-name>`
 7. Now push the local repo in your heroku app using `git push heroku master`
@@ -60,21 +60,21 @@ Now Bot will start working!! Work even if the device is offline!!
 |     `!alive`      |     Check bot is ON or OFF     | `!a`  |
 |    `!feedback`    |       Get feedback form        |       |
 |  `!votecommand`   |   Get list of vote commands    | `!vc` |
-|    `!pvxlink`     |     Get group links of PVX     |       |
+|    `!pvxlink`     |     Get group links of AIB     |       |
 |      `!dev`       |     Get the contact of dev     |       |
 | `!cricketcommand` |  Get list of cricket commands  | `!cc` |
 |     `!source`     |       Get the bot source       |       |
-|     `!steal`      | Change sticker name to PVX BOT |       |
+|     `!steal`      | Change sticker name to AIB BOT |       |
 
 <hr>
 
 | Member Commands |                    Description                    |  Alias   |
 | :-------------: | :-----------------------------------------------: | :------: |
 |    `!count`     |        Know message count in current group        |          |
-|    `!total`     |       Know message count in all PVX groups        |          |
-|     `!rank`     |    Know message count & rank in all PVX groups    |          |
-|    `!ranks`     |           Know ranks list of PVX groups           |          |
-|    `!totalg`    |    Know message count group wise in PVX groups    |          |
+|    `!total`     |       Know message count in all AIB groups        |          |
+|     `!rank`     |    Know message count & rank in all AIB groups    |          |
+|    `!ranks`     |           Know ranks list of AIB groups           |          |
+|    `!totalg`    |    Know message count group wise in AIB groups    |          |
 |   `!sticker`    |     Create sticker from different media types     |   `!s`   |
 |    `!block`     |      To block particular commands for group       |          |
 |    `!image`     |             Create image from sticker             |          |
@@ -95,9 +95,9 @@ Now Bot will start working!! Work even if the device is offline!!
 |     `!vote`     |                 Vote for a choice                 |          |
 |  `!checkvote`   |          Check status of current voting           |  `!cv`   |
 |   `!stotvote`   |            Stop voting and see result             |          |
-|   `!votepvx`    |       Vote for a choice for all PVX groups        |          |
-| `!checkvotepvx` | Check status of current voting for all PVX groups | `!cvpvx` |
-|    `!rules`     |               Get PVX groups rules                |   `!r`   |
+|   `!votepvx`    |       Vote for a choice for all AIB groups        |          |
+| `!checkvotepvx` | Check status of current voting for all AIB groups | `!cvpvx` |
+|    `!rules`     |               Get AIB groups rules                |   `!r`   |
 
 <hr>
 
@@ -110,12 +110,12 @@ Now Bot will start working!! Work even if the device is offline!!
 |     `!delete`      |                  Delete anyone message                  |  `!d`   |
 |    `!tagadmins`    |                 Tag all admins of group                 |  `!ta`  |
 |     `!warning`     |                  Give warning to user                   | `!warn` |
-|      `!pvxg`       |          Get message count stats of PVX groups          |         |
-|      `!pvxm`       |  Get members message count stats of current PVX group   |         |
-|      `!pvxt`       |    Get top members message count stats of PVX groups    |         |
-|      `!pvxt5`      | Get top 5 members message count stats of all PVX groups |         |
+|      `!pvxg`       |          Get message count stats of AIB groups          |         |
+|      `!pvxm`       |  Get members message count stats of current AIB group   |         |
+|      `!pvxt`       |    Get top members message count stats of AIB groups    |         |
+|      `!pvxt5`      | Get top 5 members message count stats of all AIB groups |         |
 |      `!zero`       |          Get members list with 0 message count          |         |
-|    `!pvxstats`     |                 Get stats of PVX groups                 |         |
+|    `!pvxstats`     |                 Get stats of AIB groups                 |         |
 |    `!blacklist`    |                  Get blacklist numbers                  |         |
 |  `!blacklistadd`   |                 Add number to blacklist                 | `!bla`  |
 | `!blacklistremove` |              Remove number from blacklist               | `!blr`  |
@@ -133,8 +133,8 @@ Now Bot will start working!! Work even if the device is offline!!
 |      `!tg`      |            Make TG to WA stickers             |       |
 |     `!stg`      |            Stop TG to WA stickers             |       |
 | `!groupbackup`  |            Take group backup in DB            |       |
-| `!startvotepvx` |        Start voting for all PVX groups        |       |
-| `!stotvotepvx`  | Stop voting and see result for all PVX groups |       |
+| `!startvotepvx` |        Start voting for all AIB groups        |       |
+| `!stotvotepvx`  | Stop voting and see result for all AIB groups |       |
 
 - CRICKET SCORES:
 
@@ -179,11 +179,11 @@ You can use (http://kaffeine.herokuapp.com) to ping the heroku app every 30 minu
 # References:- :rocket:
 
 - [@Baileys](https://github.com/adiwajshing/Baileys)
-- Old non md wa bot [PVX Bot](https://github.com/Shubhamrawat5/whatsapp-bot).
+- Old non aib wa bot [AIB Bot](https://github.com/avinash327/whatsapp-bot-aib).
 
 # Easy way to deploy:- :rocket:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Shubhamrawat5/whatsapp-bot-md)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/avinash327/whatsapp-bot-aib)
 
 Your bot will be deployed on heroku but still you need to install heroku locally to scan QR code
 
