@@ -23,7 +23,7 @@ const handler = async (sock, msg, from, args, msgInfoObj) => {
     //member's message is tagged to add
     num = msg.message.extendedTextMessage.contextInfo.participant;
   } else {
-    //number is given like !add 919557---82
+    //number is given like !add 9197047---89
     if (args.length === 0) {
       reply("❌ Give number to add!");
       return;
