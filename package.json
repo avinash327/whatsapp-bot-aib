@@ -1,5 +1,5 @@
 {
-  "name": "whatsapp-bot-md",
+  "name": "whatsapp-bot-aib",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Shubhamrawat5/whatsapp-bot-md.git"
+    "url": "git+https://github.com/avinash327/whatsapp-bot-aib.git"
   },
-  "author": "Shubham Rawat",
+  "author": "Avinash Rathod",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Shubhamrawat5/whatsapp-bot-md/issues"
+    "url": "https://github.com/avinash327/whatsapp-bot-aib/issues"
   },
-  "homepage": "https://github.com/Shubhamrawat5/whatsapp-bot-md#readme",
+  "homepage": "https://github.com/avinash327/whatsapp-bot-aib#readme",
   "dependencies": {
     "@adiwajshing/baileys": "github:adiwajshing/baileys",
     "@adiwajshing/keyed-db": "^0.2.4",
