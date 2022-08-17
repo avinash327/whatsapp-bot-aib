@@ -158,20 +158,20 @@ const { getCountVideo } = require("./db/countVideoDB");
 let countSent = 1;
 let commandSent = 1;
 
-let pvxcommunity = "919557666582-1467533860@g.us";
-let pvxprogrammer = "919557666582-1584193120@g.us";
-let pvxadmin = "919557666582-1498394056@g.us";
-let pvxstudy = "919557666582-1617595892@g.us";
-let pvxmano = "19016677357-1630334490@g.us";
-let pvxtech = "919557666582-1551290369@g.us";
-let pvxsport = "919557666582-1559476348@g.us";
-let pvxmovies = "919557666582-1506690003@g.us";
-let pvxsticker1 = "919557666582-1580308963@g.us";
-let pvxsticker2 = "919557666582-1621700558@g.us";
-let pvxstickeronly1 = "919557666582-1628610549@g.us";
-let pvxstickeronly2 = "919557666582-1586018947@g.us";
-let mano = "19016677357-1630334490@g.us";
-let pvxdeals = "919557666582-1582555632@g.us";
+let aibcommunity = "919704706189-1467533860@g.us";
+let aibprogrammer = "919704706189-1584193120@g.us";
+let aibadmin = "919704706189-1498394056@g.us";
+let aibstudy = "919704706189-1617595892@g.us";
+let aibmano = "919704706189-1630334490@g.us";
+let aibtech = "19704706189-1551290369@g.us";
+let aibsport = "919704706189-1559476348@g.us";
+let aibmovies = "919704706189-1506690003@g.us";
+let aibsticker1 = "919704706189-1580308963@g.us";
+let aibsticker2 = "919704706189-1621700558@g.us";
+let aibstickeronly1 = "919704706189-1628610549@g.us";
+let aibstickeronly2 = "919704706189-1586018947@g.us";
+let mano = "19704706189-1630334490@g.us";
+let aibdeals = "919704706189-1582555632@g.us";
 
 const addCommands = async () => {
   console.log("Commands Added!");
@@ -293,7 +293,7 @@ const startSock = async () => {
 
   store.bind(sock.ev);
 
-  if (pvx) {
+  if (aib) {
     let usedDate = new Date()
       .toLocaleString("en-GB", { timeZone: "Asia/kolkata" })
       .split(",")[0];
@@ -319,17 +319,17 @@ const startSock = async () => {
       });
       if (bday.length) {
         let bdayComb = bday.join(" & ");
-        await sock.sendMessage(pvxcommunity, {
-          text: `*─「 🔥 <{PVX}> BOT 🔥 」─* \n\nToday is ${bdayComb} Birthday 🍰 🎉🎉`,
+        await sock.sendMessage(aibcommunity, {
+          text: `*─「 🔥 <{AIB}> BOT 🔥 」─* \n\nToday is ${bdayComb} Birthday 🍰 🎉🎉`,
         });
       } else {
         console.log("NO BIRTHDAY!");
-        await sock.sendMessage(pvxcommunity, {
-          text: `*─「 🔥 <{PVX}> BOT 🔥 」─* \n\nThere is no Birthday today!`,
+        await sock.sendMessage(aibcommunity, {
+          text: `*─「 🔥 <{AIB}> BOT 🔥 」─* \n\nThere is no Birthday today!`,
         });
       }
       try {
-        await sock.groupUpdateSubject(pvxcommunity, "<{PVX}> COMMUNITY ❤️");
+        await sock.groupUpdateSubject(aibcommunity, "<{PVX}> COMMUNITY ❤️");
       } catch (err) {
         console.log(err);
       }
